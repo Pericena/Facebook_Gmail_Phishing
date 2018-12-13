@@ -1,0 +1,12 @@
+{
+  "name": "utterbliss",
+  "version": "1.0.5",
+  "description": "The Utter Bliss",
+  "main": "app.js",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "dragfire",
+  "license": "ISC"
+}
