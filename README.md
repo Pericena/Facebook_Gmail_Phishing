@@ -15,8 +15,6 @@ https://www.paypal.com/paypalme/lpericena
 ### Sigueme en las redes Sociales:
 - 🌎Blogger          https://lpericena.blogspot.com/
 - 💡 Github            https://github.com/Pericena
-- 🎬 youtube.com  https://www.youtube.com/channel/UCELx1m-NeAdBn7mCuQ86kcw
-- 📸 pinterest        https://es.pinterest.com/lushiopericena/
 - 🐤 twitter             https://twitter.com/LPericena
 - 👦 linkedin         https://www.linkedin.com/in/lpericena/
 
